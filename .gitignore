@@ -1,0 +1,41 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (large files, not tracked in git)
+data/raw/*.sav
+data/raw/*.csv
+data/processed/*.csv
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model outputs
+*.pkl
+*.joblib
+models/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
